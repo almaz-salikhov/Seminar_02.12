@@ -48,7 +48,13 @@ if(N >= 100)
         Console.Write("Третья цифра заданного числа: ");
         Console.WriteLine(result);
     }
-   
+    else if(N <= 2147483647)
+    {
+        int result = N % 100000000 / 10000000;
+        Console.Write("Третья цифра заданного числа: ");
+        Console.WriteLine(result);
+    }
+
 }
 else
 {
