@@ -8,8 +8,7 @@ int N = Convert.ToInt32(Console.ReadLine());
 
 if(N <= 999)
 {
-    int num = N % 100;
-    int result = num / 10;
+    int result = N % 100 / 10;
 
     Console.Write("Вторая цифра введенного числа: ");
     Console.WriteLine(result);
